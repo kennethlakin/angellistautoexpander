@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+
+	"name": "Angel List companies autoexpander",
+	"description": "Autoexpands angellist.co company entries",
+	"version": "1.0",
+	"content_scripts": [
+	{
+		"matches": ["https://angel.co/jobs"],
+		"js": ["expander.js"]
+	}
+	]
+}
